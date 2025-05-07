@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio | Work</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    <nav class="nav-container">
+        <div class="logo">PORTFOLIO</div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="work.html" class="active">Work</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    
+    <main class="work-container">
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="branding">
+                <div class="item-content">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <div class="item-overlay">
+                        <h3>Project Title</h3>
+                        <p>Branding & Identity</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more portfolio items here -->
+        </div>
+    </main>
+
+    <script src="js/three.min.js"></script>
+    <script src="js/main.js"></script>
+    <section class="photo-gallery">
+        <!-- Example of a 3D flip card -->
+        <div class="photo-card content-3d">
+            <div class="photo-front" style="background-image: url('path/to/your/image1.jpg');"></div>
+            <div class="photo-back">
+                <div>
+                    <h3 class="photo-title">Amazing Project</h3>
+                    <p class="photo-description">A stunning showcase of creative work</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Example of a floating photo -->
+        <div class="floating-photo">
+            <img src="path/to/your/image2.jpg" alt="Floating Image" />
+        </div>
+    
+        <!-- Example of a hover effect photo -->
+        <div class="photo-hover depth-layer-2">
+            <img src="path/to/your/image3.jpg" alt="Interactive Image" />
+            <div class="photo-overlay">
+                <h3>Creative Design</h3>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
